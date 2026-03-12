@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>F.R.I.E.N.D.S. Login</title>
+</head>
+<body>
+    <div class="central-perk-container">
+        <h1>Central Perk Access</h1>
+        <input type="text" id="username" placeholder="Character Name...">
+        <button onclick="pivoooot()">Sign In</button>
+        <p id="message"></p>
+    </div>
+    <script>
+        function pivoooot() {
+            const user = document.getElementById('username').value;
+            document.getElementById('message').innerText = `Welcome, ${user}! PIVOT!`;
+        }
+    </script>
+</body>
+</html>
